@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <input type="text">
+        <button onclick="addTodo(Event)" id="addbtn" class="c"></button>
+        <div id="showTo"></div>
+    </main>
+    
+</body>
+</html>
+<script>
+    // ARRAY OF OBJECT
+    // SELF INVOCKING FUNCTION
+    // TODO LIST CORRECTION ...
+    // MULTI-DIMENSIONAL ARRAY
+    // LOOP
+    // EVENT LISTNERS
+    // EVENT IN FUNCTIONS
+
+    let todo = []
+    let addbtn = document.getElementById("addbtn");
+    let todoItem = document.getElementById ("todoItem");
+    let showErr = document.getElementById ("showErr");
+    let showTodo = document.getElementById(showTodo);
+    let thisArr = ["Me","Him",]
+
+    addbtn.addEventListener("mouseleave" , (r)=>{
+        if(todoItem.value == "") {
+            showErr.innerHTML = "Input field cannot be empty";
+        } else{
+            showErr.innerHTML = "Todo added successfully";
+            todo.push(todoItem.value);
+            todo.forEach
+        }
+    })
+
+</script>

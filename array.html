@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 id="hide">lorem,ipsum donor.</h1>
+        <h1 id="another">Another h1 elemnt</h1>
+        <button onclick="showlorem()" id="test1">show Lorem </button>
+        <button  onclick="showanother()" id="test2">show Another</button>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+<script>
+    document.getElementById("lorem").style.display = "none"
+    Document.getElementById("nother").style.display = "none"
+    // ARAY METHODS
+    // DOM (DOCUMENT OBJECT MODEL)
+    // OBJECT
+
+    let info ={
+        name: "Daniel",
+        age: 3,
+        gender: "male",
+        class:"HTML"
+        nationality:"Australia"
+    }
+    console.log(info.gender);
+    console.log(document.body.style.backgroundColor = "red");
+    let div = document.createElement("button")
+    div.innerHTML = "click me"
+    div.style.backgroundColor = "blue";
+    document.getElementById("lorem").innerHTML = "I changed the text"
+    document.body.appendChild(div)
+    console.log(document.getElementsByName ("input"));
+    console.log(document.getElementsByName("select"));
+    console.log(document.getElementsByClassName("erm"))
+</script>
